@@ -1,16 +1,47 @@
-# React + Vite
+# Lewis-Tac-Toe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Developer:** Abhirekha Thimmasani  
+**Institution:** Lewis University  
+**Course:** Software Architecture & Design  
+**Project:** React Tic-Tac-Toe (First Deployment Version)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Overview
 
-## React Compiler
+**Lewis-Tac-Toe** is a web-based Tic-Tac-Toe game developed using **React**.  
+This version was created following the React Tic-Tac-Toe tutorial and focuses on practicing:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Component structure
+- State management using Hooks
+- Basic game logic implementation (winner + draw detection)
 
-## Expanding the ESLint configuration
+This version was deployed manually to **Azure Static Web Apps**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- Turn-based game between **X** and **O**
+- Displays whose turn it is
+- Detects **winner** and **draw**
+- **Reset** button to restart the game
+- Simple, clean interface
+
+---
+
+## Technologies Used
+
+| Tool | Purpose |
+|------|---------|
+| React (Create Vite App) | UI and component logic |
+| JavaScript (ES6+) | Core programming language |
+| Node.js & npm | Build + package management |
+| Azure Static Web Apps | Cloud hosting |
+| GitHub | Source control |
+
+---
+
+## Live Hosted Version
+
+**Azure URL: https://salmon-plant-0c5a2241e.3.azurestaticapps.net/**  
